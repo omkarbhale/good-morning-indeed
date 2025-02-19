@@ -1,0 +1,6 @@
+node_modules
+.data
+.userlist.txt
+package-lock.json
+.env
+.wwebjs_cache
