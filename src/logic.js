@@ -21,7 +21,7 @@ async function sendGreetings(waclient) {
 		.split("\n")
 		.map((line) => line.trim())
 		.filter(Boolean)
-		.filter(user => !user.startsWith("--"));
+		.filter((user) => !user.startsWith("--"));
 
 	// Step 2: Fetch today's data (array of { timestamp, user, message_sent })
 	const todaysData = await getTodaysData();
